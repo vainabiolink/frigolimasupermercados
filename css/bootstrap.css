@@ -476,7 +476,7 @@ progress {
 }
 
 .espaco{
-  height: 100px;
+  height: 50px;
 }
 .celula1{
   max-height: 100px;
@@ -495,7 +495,7 @@ progress {
   max-height: 50px;
 }
 .celula-link{
-  background-color: #861d1a;
+  background-color: #40a62a;
   max-width: 300px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -507,22 +507,24 @@ progress {
 
 }
 .celula-link:hover{
-  background-color: #cf3f3a;
+  background-color: #55d439;
   box-shadow: 1px 1px 10px rgb(150, 150, 150);
   transition: all .4s;
 }
 
 .icone-contato{
+  background-color: #ffffff;
   width: 30px;
   height: 30px;
   border-radius: 20px;
   box-shadow: 1px 1px 5px black;
   margin-left: 5px;
   margin-right: 5px;
+
 }
 
 .icone-contato:hover{
-  background-color: #cf3f3a;
+  background-color: #ffffff;
   box-shadow: 1px 1px 5px rgb(150, 150, 150);
   transition: all .4s;
 }
