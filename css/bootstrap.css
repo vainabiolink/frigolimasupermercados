@@ -486,6 +486,7 @@ progress {
   text-decoration: none;
   color:#fff;
 }
+
 .link:hover{
   color:#ecf0f1;
   transition: all .4s;
@@ -528,6 +529,40 @@ progress {
   box-shadow: 1px 1px 5px rgb(150, 150, 150);
   transition: all .4s;
 }
+
+.telefones-lojas{
+  align-items: center;
+  text-align: left;
+  color: #ffffff;
+}
+
+.tabela-tel{
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+  
+}
+
+.celula-link2{
+  background-color: #40a62a;
+  max-width: 200px;
+  max-height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 1px 1px 10px black;
+}
+
+.celula-link2:hover{
+  background-color: #55d439;
+  box-shadow: 1px 1px 10px rgb(150, 150, 150);
+  transition: all .4s;
+}
+
+
 
 
 
