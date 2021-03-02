@@ -473,6 +473,7 @@ progress {
   width: 100px;
   height: 100px;
   border-radius: 50px;
+  animation: logo-animada 3s;
 }
 
 .espaco{
@@ -480,6 +481,15 @@ progress {
 }
 .celula1{
   max-height: 100px;
+}
+
+@keyframes logo-animada {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
 }
 
 .link{
@@ -496,6 +506,7 @@ progress {
   max-height: 50px;
 }
 .celula-link{
+  
   background-color: #40a62a;
   max-width: 300px;
   padding-top: 20px;
@@ -504,12 +515,68 @@ progress {
   border-radius: 50px;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 1px 1px 10px black;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.400);
 
 }
+/*------- FUNÇÃO DA ANIMAÇÃO -------*/
+@keyframes move {
+  from{
+    opacity: 0;
+    transform: translateX(-30%);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0%);
+    
+  }
+}
+@keyframes move-contra{
+  from{
+    opacity: 0;
+    transform: translateX(30%);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0%);
+    
+  }
+}
+/*------- ANIMAÇÃO NOS LINKS -------*/
+#link1{
+  animation: move 2s;
+  animation-delay: 250ms;
+}
+#link2{
+  animation: move 2s;
+  animation-delay: 500ms;
+}
+#link3{
+  animation: move 2s;
+  animation-delay: 750ms;
+}
+#link4{
+  animation: move 2s;
+  animation-delay: 1s;
+}
+
+/*------ Animação Reversa ------*/
+#link5{
+  animation: move-contra 2s;
+  animation-delay: 1500ms;
+}
+#link6{
+  animation: move-contra 2s;
+  animation-delay: 1750ms;
+}
+#link7{
+  animation: move-contra 2s;
+  animation-delay: 2000ms;
+}
+
+
 .celula-link:hover{
   background-color: #55d439;
-  box-shadow: 1px 1px 10px rgb(150, 150, 150);
+  box-shadow: 1px 1px 10px rgba(150, 150, 150, 0.400);
   transition: all .4s;
 }
 
@@ -518,7 +585,7 @@ progress {
   width: 30px;
   height: 30px;
   border-radius: 20px;
-  box-shadow: 1px 1px 5px black;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.400);
   margin-left: 5px;
   margin-right: 5px;
 
@@ -526,7 +593,7 @@ progress {
 
 .icone-contato:hover{
   background-color: #ffffff;
-  box-shadow: 1px 1px 5px rgb(150, 150, 150);
+  box-shadow: 1px 1px 5px rgba(150, 150, 150, 0.400);
   transition: all .4s;
 }
 
@@ -553,13 +620,28 @@ progress {
   border-radius: 50px;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 1px 1px 10px black;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.400);
 }
 
 .celula-link2:hover{
   background-color: #55d439;
-  box-shadow: 1px 1px 10px rgb(150, 150, 150);
+  box-shadow: 1px 1px 10px rgba(150, 150, 150, 0.400);
   transition: all .4s;
+}
+
+.contatos{
+  animation: contato 2s;
+  animation-delay: 1250ms;
+}
+
+@keyframes contato{
+  from{
+    opacity: 0;
+    display: none;
+  }
+  to{
+    opacity: 1;
+  }
 }
 
 
