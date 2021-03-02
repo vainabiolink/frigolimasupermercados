@@ -474,6 +474,7 @@ progress {
   height: 100px;
   border-radius: 50px;
   animation: logo-animada 3s;
+  animation-fill-mode: backwards;
 }
 
 .espaco{
@@ -545,32 +546,39 @@ progress {
 #link1{
   animation: move 2s;
   animation-delay: 250ms;
+  animation-fill-mode: backwards;
 }
 #link2{
   animation: move 2s;
   animation-delay: 500ms;
+  animation-fill-mode: backwards;
 }
 #link3{
   animation: move 2s;
   animation-delay: 750ms;
+  animation-fill-mode: backwards;
 }
 #link4{
   animation: move 2s;
   animation-delay: 1s;
+  animation-fill-mode: backwards;
 }
 
 /*------ Animação Reversa ------*/
 #link5{
   animation: move-contra 2s;
   animation-delay: 1500ms;
+  animation-fill-mode: backwards;
 }
 #link6{
   animation: move-contra 2s;
   animation-delay: 1750ms;
+  animation-fill-mode: backwards;
 }
 #link7{
   animation: move-contra 2s;
   animation-delay: 2000ms;
+  animation-fill-mode: backwards;
 }
 
 
@@ -632,6 +640,7 @@ progress {
 .contatos{
   animation: contato 2s;
   animation-delay: 1250ms;
+  animation-fill-mode: backwards;
 }
 
 @keyframes contato{
