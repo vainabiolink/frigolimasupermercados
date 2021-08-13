@@ -652,12 +652,35 @@ progress {
     opacity: 1;
   }
 }
+/*
+.mensagem{
+  /*animation: aparecerporbaixo 4s;
+  font-size: 15px;
+  position:fixed;
+  left: 0;
+  right: 0;
+  display: none;
+  color: #fff;
+  margin: auto;
+  margin-bottom: 50px;
+  background-color: #17974d;
+  width: 200px;
+  padding: 5px;
+  border-radius: 15px;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.400);
 
+}
 
-
-
-
-
+@keyframes aparecerporbaixo{
+  from{
+    opacity: 0;
+    display: none;
+  }
+  to{
+    opacity: 1;
+  }
+}
+*/
 
 
 
